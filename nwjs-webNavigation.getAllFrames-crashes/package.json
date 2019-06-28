@@ -1,0 +1,12 @@
+{
+  "name": "test",
+  "main": "src/main.js",
+  "user-agent": "test",
+  "dependencies": {
+    "nw": "^0.39.2"
+  },
+  "scripts": {
+    "start": "nw"
+  },
+  "chromium-args": "--enable-logging --v=1 --load-extension='./extension_test/'"
+}
